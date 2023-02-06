@@ -4,7 +4,7 @@ const calcAverageHumanAge = function (ages) {
     console.log(humanAge);
     console.log(adults);
 
-    const average = adults.reduce((acc, age, i, arr) => acc + age / arr.length, 0)
+    const average = adults.reduce((acc, age, i, arr) => acc + age / arr.length, 0);
 
     return average;
 };
